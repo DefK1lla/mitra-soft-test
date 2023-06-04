@@ -1,7 +1,6 @@
 import { FC } from 'react'
-import { Link } from 'react-router-dom'
 
-import { Accordion, Button, Card } from 'react-bootstrap'
+import { Accordion, Card } from 'react-bootstrap'
 
 import { Post } from '../../shared/types/post'
 
@@ -22,7 +21,7 @@ const PostCard: FC<Post> = ({ userId, id, title, body }) => {
         </Card.Link>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{body}</Card.Text>
-        <Accordion>
+        <Accordion onSelect={key => console.log(!!key)}>
           <Accordion.Item eventKey='0'>
             <Accordion.Header>Comments</Accordion.Header>
             <Accordion.Body className={s.commentsWrapper}>
