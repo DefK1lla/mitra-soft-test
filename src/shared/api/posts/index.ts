@@ -1,7 +1,7 @@
 import Axios from 'axios'
 
 const posts = Axios.create({
-  baseURL: 'https://jsonplaceholder.typicode.com/',
+  baseURL: process.env.REACT_APP_JSON_PLACEHOLDER + '/posts',
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
