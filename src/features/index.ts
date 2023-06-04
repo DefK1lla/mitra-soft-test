@@ -1,3 +1,4 @@
-import PostCard from './PostCard/PostCard'
+import PostCard from './Post/PostCard'
+import PostList from './Post/PostList'
 
-export { PostCard }
+export { PostCard, PostList }

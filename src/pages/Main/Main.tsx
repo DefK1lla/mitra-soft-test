@@ -1,9 +1,9 @@
 import { FC } from 'react'
 
-import Posts from './sections/Posts/Posts'
+import { PostList } from '../../features'
 
 const MainPage: FC = () => {
-  return <Posts />
+  return <PostList />
 }
 
 export default MainPage

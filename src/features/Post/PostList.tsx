@@ -8,9 +8,9 @@ import { useAppDispatch, useAppSelector } from 'store/hooks'
 
 import { fetchPosts } from 'store/slices/post/postActions'
 
-import s from './posts.module.scss'
+import s from './post.module.scss'
 
-const Posts = () => {
+const PostList = () => {
   const { limit, page, count, posts } = useAppSelector(
     state => state.posts
   )
@@ -54,4 +54,4 @@ const Posts = () => {
   )
 }
 
-export default Posts
+export default PostList

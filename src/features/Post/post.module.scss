@@ -24,3 +24,12 @@
 .comment {
   margin-bottom: 20px;
 }
+
+.postsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 15px;
+
+  margin-bottom: 30px;
+}

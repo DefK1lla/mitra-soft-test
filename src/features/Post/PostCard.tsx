@@ -4,7 +4,7 @@ import { Accordion, Card } from 'react-bootstrap'
 
 import { Post } from '../../shared/types/post'
 
-import s from './postCard.module.scss'
+import s from './post.module.scss'
 
 import COMMENTS_MOCK from '../../shared/mock/comments'
 
