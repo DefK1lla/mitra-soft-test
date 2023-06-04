@@ -1,0 +1,26 @@
+.cardWrapper {
+  max-width: 320px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+
+  margin-bottom: 15px;
+
+  cursor: pointer;
+}
+
+.commentsWrapper {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.email {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
