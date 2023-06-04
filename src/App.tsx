@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import { PostCard } from './features'
-import POST_MOCK from './shared/mock/post'
 import './styles/App.css'
 import { fetchPosts } from 'store/slices/post/postActions'
 import { useAppDispatch } from 'store/hooks'
