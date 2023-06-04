@@ -4,6 +4,7 @@ import POST_MOCK from './shared/mock/post'
 import './styles/App.css'
 import { fetchPosts } from 'store/slices/post/postActions'
 import { useAppDispatch } from 'store/hooks'
+import AppRouter from 'router/Router'
 
 function App() {
   const dispatch = useAppDispatch()
@@ -15,11 +16,7 @@ function App() {
       })
     )
   }, [])
-  return (
-    <div>
-      <PostCard {...POST_MOCK} />
-    </div>
-  )
+  return <AppRouter />
 }
 
 export default App
